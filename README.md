@@ -8,7 +8,7 @@ A full-stack finance dashboard system with a React frontend and Node.js/Express/
 
 | Layer | URL |
 |-------|-----|
-| Frontend | *(add Vercel URL after deployment)* |
+| Frontend | https://finance-backend-indol.vercel.app |
 | Backend API | https://finance-backend-production-09e7.up.railway.app |
 | API Docs | https://documenter.getpostman.com/view/45889737/2sBXqFMhAE |
 

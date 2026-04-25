@@ -12,11 +12,8 @@ const app = express();
 
 app.use(helmet());
 app.use(cors({
-  origin: [
-    "http://localhost:3000",
-    "https://finance-backend-indol.vercel.app",
-  ],
-  credentials: true,
+  origin: "*",
+  credentials: false,
   methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
